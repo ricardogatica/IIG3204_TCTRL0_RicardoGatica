@@ -1,15 +1,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+// #include <math.h>
 
 using namespace std;
-
-// Calcula Area Cuadrado
-
-// Rectangulo
-// Triangulo
-
 
 int main()
 {
@@ -27,7 +21,7 @@ int main()
 	area = (lado_a * lado_a);
 	perimetro = (4 * lado_a);
 
-	cout<<"\n\t Area de Cuadrado = "<<area;
+	cout<<"\n\t Area de Cuadrado = "<<area<<" a verrrrrrr";
 	cout<<"\n\t Perimetro de Cuadrado = "<<perimetro<<endl;
 	cout<<"\n";
 
