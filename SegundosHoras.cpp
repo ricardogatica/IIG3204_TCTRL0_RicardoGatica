@@ -1,9 +1,10 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-// #include <math.h>
 
 using namespace std;
+// SEGUNDOS A HORAS
+// Autor: RGM - v1.0 - 23/08/2018
 
 int main()
 {

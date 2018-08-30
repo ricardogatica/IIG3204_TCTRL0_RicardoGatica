@@ -6,6 +6,8 @@
 #include <string>
 
 using namespace std;
+// Fabrica AMD
+// Autor: RGM - v1.1 - 23/08/2018
 
 int main()
 {
@@ -38,7 +40,10 @@ int main()
 	total_pago = total + total_iva;
 
 	cout<<"\n Procesadores: "<<procesadores;
-	cout<<"\n Total: $"<<total;
+	cout<<"\n Total: $"<<(procesadores * valor_procesador);
+	cout<<endl;
+
+	cout<<"\n Total c/ Descuento: $"<<total;
 	cout<<"\n Iva: $"<<total_iva;
 
 	cout<<"\n Total + Iva: $"<<total_pago;
