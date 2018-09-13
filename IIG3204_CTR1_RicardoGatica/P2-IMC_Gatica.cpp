@@ -63,6 +63,8 @@ int main()
 	cout<<"Cantidad de alumnos con desnutrición: "<<desnutricion<<endl;
 	cout<<"Cantidad de alumnos con obesidad: "<<obesidad<<endl;
 
+	system("pause");
+
 	return 0; // Devuelve control al sistema
 }
 

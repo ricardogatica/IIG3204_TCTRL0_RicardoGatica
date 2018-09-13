@@ -42,6 +42,8 @@ int main()
 		cout<<"Nivel de riesgo: Obesidad (IMC "<<imc<<")\n";
 	}
 
+	system("pause");
+
 	return 0; // Devuelve control al sistema
 }
 
