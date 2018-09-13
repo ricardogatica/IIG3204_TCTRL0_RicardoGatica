@@ -9,12 +9,6 @@ using namespace std;
 // IMC
 // Autor: RGM - v1.0 - 13/09/2018
 
-void paus() {
-    cin.clear();
-    cout << endl << "Press any key to continue...";
-    cin.ignore();
-}
-
 int main()
 {
 
@@ -23,11 +17,11 @@ int main()
 	cout<<"Ingrese Peso: ";
 	cin>>peso;
 
-	cout<<"Ingrese Altura (cm): ";
+	cout<<"Ingrese Altura (mts): ";
 	cin>>altura;
 
 	// Calculamos el IMC
-	imc = peso / pow((altura/100),2);
+	imc = peso / pow(altura,2);
 
 
 	cout<<endl;
@@ -47,8 +41,6 @@ int main()
 	else {
 		cout<<"Nivel de riesgo: Obesidad (IMC "<<imc<<")\n";
 	}
-
-	paus();
 
 	return 0; // Devuelve control al sistema
 }
